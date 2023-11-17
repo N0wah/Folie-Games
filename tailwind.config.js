@@ -2,7 +2,8 @@
 module.exports = {
   content: ["./src/**/*.{html,js}",
             "./Snake/Snake.html",
-            "./Tetris/Tetris.html"],
+            "./Tetris/Tetris.html",
+            "./Minesweeper/Minesweeper.html"],
   theme: {
     extend: {},
   },

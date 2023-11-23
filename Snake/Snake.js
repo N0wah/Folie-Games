@@ -33,9 +33,13 @@ const changementDirection = (e) => {
 
 
 const changeFoodPosition = () => {
-
-    foodX = Math.floor(Math.random()*15)+1;
-    foodY = Math.floor(Math.random()*15)+1;
+    for (let i = snakebody.length - 1 ; i >= 0 ; i--) {
+        foodX = Math.floor(Math.random()*15)+1;
+        foodY = Math.floor(Math.random()*15)+1;
+        if (snakebody[i][0] != foodX || snakebody[i][1] != foodY) {
+            break;
+        }
+    }
 }
 
 const handleGameover = () => {

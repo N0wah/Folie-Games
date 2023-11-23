@@ -21,7 +21,7 @@ body {
     height: 400px;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: start;
+    justify-content: center;
 }
 
 .card {
@@ -36,6 +36,7 @@ body {
     align-items: flex-end;
     transition: .6s cubic-bezier(.28,-0.03,0,.99);
     box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
+    background-color: black;
 }
 
 .card > .row {
@@ -45,7 +46,7 @@ body {
 }
 
 .card > .row > .icon {
-    background: #223;
+    background: blueviolet;
     color: white;
     border-radius: 50%;
     width: 50px;
@@ -69,12 +70,15 @@ body {
 }
 
 .description p {
-    color: #b0b0ba;
+    color: black;
     padding-top: 5px;
 }
 
 .description h4 {
     text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    -webkit-text-stroke: 1px black;
 }
 
 input {
@@ -91,10 +95,12 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-    background-image: url('./img1.jpeg');
+    background-image: url('/image/tetris.jpeg');
+    background-position: center;
 }
 .card[for="c2"] {
-    background-image: url('./img2.jpeg');
+    background-image: url('/image/snake.png');
+    background-position: center;
 }
 .card[for="c3"] {
     background-image: url('hangman');

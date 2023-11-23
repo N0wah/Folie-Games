@@ -1,9 +1,49 @@
 .food {
-    background-image: url(apple-3155.svg);
+    background: red;
     background-size: cover;
 }
 
 .head {
-    background-image: url(round-animal-outlined-face-4-01-snake-icon-original.svg);
+    background: green;
     background-size: cover;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #E3F2FD;
+  }
+  .wrapper {
+    width: 65vmin;
+    height: 70vmin;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    background: #293447;
+    box-shadow: 0 20px 40px rgba(52, 87, 220, 0.2);
+  }
+  .game-details {
+    color: #B8C6DC;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 20px 27px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .play-board {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    background: #212837;
+    grid-template: repeat(15, 1fr) / repeat(15, 1fr);
+  }

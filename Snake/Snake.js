@@ -41,12 +41,12 @@ const changementDirection = (e) => {  // fonction pour les changements de direct
 
 
 const changeFoodPosition = () => {
-    foodX = Math.floor(Math.random()*15)+1;
-    foodY = Math.floor(Math.random()*15)+1;
+    foodX = Math.floor(Math.random()*16)+1;
+    foodY = Math.floor(Math.random()*16)+1;
     for (let i = 0; i < snakebody.length ; i++) {
         if(foodX === snakebody[i][0] && foodY === snakebody[i][1]){       
-        foodX = Math.floor(Math.random()*15)+1;
-        foodY = Math.floor(Math.random()*15)+1;
+        foodX = Math.floor(Math.random()*16)+1;
+        foodY = Math.floor(Math.random()*16)+1;
         }
     }
 }
@@ -104,5 +104,5 @@ const initGame = () => { // initation de du jeu
 
 foodX = Math.floor(Math.random()*15)+1;
 foodY = Math.floor(Math.random()*15)+1;
-setIntervalId = setInterval(initGame, 95);
+setIntervalId = setInterval(initGame, 150);
 document.addEventListener("keydown", changementDirection);

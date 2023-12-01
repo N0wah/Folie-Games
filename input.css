@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .game-box {
-    @apply w-[39rem] h-[22.938rem] bg-black rounded-[65px] hover:scale-110 hover:transition-transform transition-transform hover:shadow-[#6200B3] hover:shadow-2xl;
+    @apply w-[35rem] h-[22.938rem] bg-black rounded-[65px] hover:scale-110 hover:transition-transform transition-transform hover:shadow-[#1f1f1f] hover:shadow-2xl;
 }

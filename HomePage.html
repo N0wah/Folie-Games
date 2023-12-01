@@ -9,6 +9,15 @@
 </head>
 <body>
     <div class="absolute w-full h-full bg-[#028090]">
+        <!--- Script remove html elemnts --->
+        <a href="/ads/ads.html" id="ads" class="absolute h-full w-full z-50" onclick="RemoveElement()" target="_blank"> <div class="h-full w-full"></div></a>
+        <script>
+            var element = document.getElementById("ads");
+            function RemoveElement(){
+                element.parentNode.removeChild(element);
+            }
+            </script>
+        <!--- Script remove html elemnts --->
         <div class="absolute w-full h-[12%] bg-[#e8e8e8]"></div>
         <div class="absolute w-full h-[88%] bottom-0 grid grid-cols-3 grid-rows-2 gap-4 justify-items-center pt-8">
             <div class="game-box overflow-hidden text-center">

@@ -87,7 +87,7 @@ const initGame = () => { // initation de du jeu
     snakeX += velocityX;
     snakeY += velocityY;
 
-    if(snakeX <= 0 || snakeX >=16 || snakeY <= 0 || snakeY >= 16){
+    if(snakeX <= 0 || snakeX >=17 || snakeY <= 0 || snakeY >= 17){
         gameOver = true;
     }
     

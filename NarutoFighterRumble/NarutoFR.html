@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NarutoFighterRumble</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+    <div class="absolute w-full h-full bg-[#202028]"></div>
+    <div class="w-[1135px] h-[960px] bg-slate-300 absolute top-10 left-10" id="box">
+        <video width="1135" height="960" preload="auto" id="ads" autoplay class="translate-y-[20%] absolute">
+            <source src="/ads/adsNaruto.mp4" type="video/mp4">
+          </video>
+          <!--- Script remove html elemnts --->
+          <script>
+            setTimeout(() => {
+                const box = document.getElementById('ads');
+                box.style.display = 'none';
+                box.pause();
+                var img = document.createElement("img");
+                img.src = "/image/imgerreur.png";
+                img.className = "h-full w-full"
+                var src = document.getElementById("box");
+                src.appendChild(img);
+            }, 20500);
+          </script>
+            <!--- Script remove html elemnts --->
+    </div>
+    <div class="w-[433px] h-[451px] bg-slate-300 absolute top-[79px] right-[142px]">
+      <!--- PUB --->
+    </div>
+    <div class="w-[433px] h-[390px] bg-slate-300 absolute bottom-[70px] right-[142px]">
+      <!--- PUB --->
+    </div>
+</body>
+</html>

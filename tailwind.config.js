@@ -4,7 +4,7 @@ module.exports = {
             "./Snake/Snake.html",
             "./Tetris/Tetris.html",
             "./Minesweeper/Minesweeper.html",
-            "Homepage.html",
+            "./JeuxGratuits/JeuxGratuits.html",
             "./NarutoFighterRumble/NarutoFR.html",
             "./Tron/Tron.html"],
   theme: {

@@ -6,7 +6,8 @@ module.exports = {
             "./Minesweeper/Minesweeper.html",
             "./JeuxGratuits/JeuxGratuits.html",
             "./NarutoFighterRumble/NarutoFR.html",
-            "./Tron/Tron.html"],
+            "./Tron/Tron.html",
+            "./Store/Store.html"],
   theme: {
     extend: {},
   },

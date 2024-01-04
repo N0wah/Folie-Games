@@ -5,9 +5,10 @@ module.exports = {
             "./Tetris/Tetris.html",
             "./Minesweeper/Minesweeper.html",
             "./JeuxGratuits/JeuxGratuits.html",
-            "./NarutoFighterRumble/NarutoFR.html",
+            "./JeuxAds/Jeux.html",
             "./Tron/Tron.html",
-            "./Store/Store.html"],
+            "./Store/Store.html",
+            "Homepage.html"],
   theme: {
     extend: {},
   },
